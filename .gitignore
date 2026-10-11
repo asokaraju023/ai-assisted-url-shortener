@@ -1,0 +1,30 @@
+
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio and IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
